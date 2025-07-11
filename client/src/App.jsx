@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import "./index.css";
 import Header from "./Header";
-import Hero from "./hero";
+import Hero from "./Hero";
 import Services from "./Services";
 import Work from "./Work";
 import Footer from "./Footer";

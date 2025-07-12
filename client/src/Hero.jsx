@@ -1,5 +1,5 @@
 // src/components/HeroSection.jsx
-import myPhoto from "./assets/Profile.jpg"; // Update path as needed
+import myPhoto from "/assets/Profile.jpg"; // Update path as needed
 
 const Hero = () => {
   return (
@@ -29,7 +29,7 @@ const Hero = () => {
           <img
             src={myPhoto}
             alt="Ernest"
-            className="rounded-xl shadow-lg w-full max-w-sm object-cover"
+            className="w-64 h-64 object-cover rounded-lg filter grayscale hover:grayscale-0 transition duration-500 ease-in-out"
           />
         </div>
       </div>

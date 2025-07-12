@@ -16,7 +16,7 @@ const Hero = () => {
           </p>
 
           <a
-            href="/Ernest_Anmol_resume.pdf" // Change this to your actual CV file path
+            href="https://drive.google.com/file/d/14cTPwkfitWyaUmxkbsB8uvv-s2j_IrUP/view?usp=sharing" // Change this to your actual CV file path
             download
             className="inline-block mt-6 px-6 py-3 bg-red-500 text-white font-medium rounded-full hover:bg-red-600 transition duration-300"
           >

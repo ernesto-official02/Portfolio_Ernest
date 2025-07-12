@@ -1,5 +1,5 @@
 // src/components/HeroSection.jsx
-import myPhoto from "/assets/profile.jpg"; // Update path as needed
+import myPhoto from "./assets/profile.jpg"; // Update path as needed
 
 const Hero = () => {
   return (
@@ -28,7 +28,7 @@ const Hero = () => {
         <div className="flex-1">
           <img
             src={myPhoto}
-            alt="Gourav"
+            alt="Ernest"
             className="rounded-xl shadow-lg w-full max-w-sm object-cover"
           />
         </div>

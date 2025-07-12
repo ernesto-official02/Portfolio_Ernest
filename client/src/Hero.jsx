@@ -29,7 +29,7 @@ const Hero = () => {
           <img
             src={myPhoto}
             alt="Ernest"
-            className="w-64 h-64 object-cover rounded-lg filter grayscale hover:grayscale-0 transition duration-500 ease-in-out"
+            className="w-100 h-100 object-cover rounded-lg filter grayscale hover:grayscale-0 transition duration-500 ease-in-out"
           />
         </div>
       </div>

@@ -1,5 +1,5 @@
 // src/components/HeroSection.jsx
-import myPhoto from "/assets/profile.png"; // Update path as needed
+import myPhoto from "/profile.jpg"; // Update path as needed
 
 const Hero = () => {
   return (

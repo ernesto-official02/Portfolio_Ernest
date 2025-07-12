@@ -12,7 +12,7 @@ const Contact = () => {
             Whether you have a project, want to collaborate, or just say hello—feel free to reach out!
           </p>
 
-          <ul className="text-sm space-y-4">
+          <ul className="text-xl space-y-4">
             <li className="flex items-center gap-3">
               <FaMapMarkerAlt className="text-red-500" />
               <span>Punjab, India</span>
@@ -28,7 +28,7 @@ const Contact = () => {
           </ul>
 
           {/* Social Icons */}
-          <div className="flex items-center gap-4 mt-6 text-xl text-white">
+          <div className="flex items-center gap-4 mt-6 text-3xl text-white">
             <a href="https://www.linkedin.com/in/ernest-anmol-48a302211/" target="_blank" rel="noreferrer">
               <FaLinkedin className="hover:text-red-500 transition" />
             </a>
@@ -44,7 +44,7 @@ const Contact = () => {
         {/* Right Column: Form */}
         <form className="md:w-1/2 space-y-6">
           <div>
-            <label className="block text-sm mb-1">Your Name</label>
+            <label className="block text-xl mb-1">Your Name</label>
             <input
               type="text"
               className="w-full bg-transparent border-b border-gray-600 focus:outline-none focus:border-red-500 py-2 px-1"
@@ -52,7 +52,7 @@ const Contact = () => {
             />
           </div>
           <div>
-            <label className="block text-sm mb-1">Your Email</label>
+            <label className="block text-xl mb-1">Your Email</label>
             <input
               type="email"
               className="w-full bg-transparent border-b border-gray-600 focus:outline-none focus:border-red-500 py-2 px-1"
@@ -60,14 +60,14 @@ const Contact = () => {
             />
           </div>
           <div>
-            <label className="block text-sm mb-1">Subject</label>
+            <label className="block text-xl mb-1">Subject</label>
             <input
               type="text"
               className="w-full bg-transparent border-b border-gray-600 focus:outline-none focus:border-red-500 py-2 px-1"
             />
           </div>
           <div>
-            <label className="block text-sm mb-1">Message</label>
+            <label className="block text-xl mb-1">Message</label>
             <textarea
               rows="4"
               className="w-full bg-transparent border-b border-gray-600 focus:outline-none focus:border-red-500 py-2 px-1 resize-none"
@@ -75,7 +75,7 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            className="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-3 rounded-md transition duration-300"
+            className="w-full bg-red-600 hover:bg-red-700 text-white text-xl font-semibold py-3 rounded-md transition duration-300"
           >
             Send Message 🚀
           </button>

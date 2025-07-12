@@ -44,21 +44,21 @@ const Work = () => {
                 key={index}
                 className="bg-white text-black p-6 rounded-xl shadow-md hover:shadow-lg transition transform hover:-translate-y-1"
               >
-                <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                <p className="text-sm text-gray-700 mb-4">{project.description}</p>
+                <h3 className="text-3xl font-semibold mb-2">{project.title}</h3>
+                <p className="text-xl text-gray-700 mb-4">{project.description}</p>
 
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.techStack.map((tech, i) => (
                     <span
                       key={i}
-                      className="bg-black text-white px-2 py-1 rounded text-xs font-semibold"
+                      className="bg-black text-white px-2 py-1 rounded text-xl font-semibold"
                     >
                       {tech}
                     </span>
                   ))}
                 </div>
 
-                <div className="flex gap-4 text-sm text-indigo-600 font-medium items-center">
+                <div className="flex gap-4 text-s text-indigo-600 font-medium items-center">
                   <a
                     href={project.liveLink}
                     target="_blank"

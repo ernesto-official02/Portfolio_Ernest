@@ -49,8 +49,8 @@ const Services = () => {
                 className="bg-white text-black p-6 rounded-xl shadow-md hover:shadow-lg transition transform hover:-translate-y-1"
               >
                 <div className="text-3xl mb-4">{service.icon}</div>
-                <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
-                <p className="text-gray-700 text-sm">{service.description}</p>
+                <h3 className="text-3xl font-semibold mb-2">{service.title}</h3>
+                <p className="text-gray-700 text-xl">{service.description}</p>
               </div>
             ))}
           </div>

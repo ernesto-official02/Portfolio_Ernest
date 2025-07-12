@@ -4,7 +4,7 @@ import myPhoto from "/assets/profile.png"; // Update path as needed
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen bg-gray-50 flex items-center justify-center px-6 py-20">
-      <div className="flex flex-col md:flex-row items-center gap-10 max-w-6xl w-full">
+      <div className="flex flex-col md:flex-row items-center gap-10 max-w-6l ">
         {/* Text Content */}
         <div className="flex-1 text-center md:text-left">
           <p className="text-sm uppercase text-gray-600">Hello</p>
